@@ -1,0 +1,60 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+form
+{
+    background-color: aquamarine;
+    padding:40px;
+    display: block;
+    width:40%;
+}
+.input-row
+{
+    background-color: rgba(255, 255, 255, .3);
+    margin-bottom:10px;
+    padding:10px;
+    display: flex;
+}
+.input-row input
+{
+   background-color: white !important;
+   opacity:1 !important;
+   height:35px;
+   width:70%;
+   display: block;
+}
+label
+{
+    width:20%;
+    display:block;
+}
+button
+{
+   border-radius: 30px;
+   background-color: aqua;
+   width:24%;
+   height:50px;
+   font-size: 2em;
+   font-weight: bolder;
+   text-transform: uppercase;
+   margin-left:38%;
+   margin-right:38%;
+}
+.radio-input-row
+{
+    background-color: rgba(255, 255, 255, .3);
+    margin-bottom:10px;
+    padding:10px;
+    
+}
+
+.radio-input-row div{
+    display: flex;
+    justify-content: space-evenly;
+}
+textarea
+{
+    width:70%;
+}
